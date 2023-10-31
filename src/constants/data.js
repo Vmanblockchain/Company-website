@@ -8,32 +8,6 @@ export const navbar = {
       name: 'Home',
       url: '/',
     },
-    {
-      id: 2,
-      name: 'WhatWeDo',
-      url: '/whatwedo',
-    },
-    {
-      id: 3,
-      name: 'AboutUs',
-      url: '/about',
-    },
-    {
-      id: 4,
-      name: 'Contact',
-      url: '/contact',
-    },
-    {
-      id: 5,
-      name: 'Insights',
-      url: '/insights',
-    },
-    {
-      id: 6,
-      name: 'sayHello',
-      url: '/say-hello',
-      button: true,
-    },
   ],
 };
 
