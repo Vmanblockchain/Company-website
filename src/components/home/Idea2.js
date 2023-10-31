@@ -23,9 +23,9 @@ const Idea = () => {
               <div className="h-12 flex items-center">
                 <Image
                   alt={block.title}
-                  // src={block.image}
-                  // width={36}
-                  // height={48}
+                  src={block.image}
+                  width={36}
+                  height={48}
                   className="first:h-12 first:w-12"
                 />
               </div>
@@ -35,7 +35,6 @@ const Idea = () => {
         </div>
       </div>
     </div>
-
 
   );
 };

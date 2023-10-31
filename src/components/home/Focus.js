@@ -19,17 +19,17 @@ const Focus = () => {
         }`}
       >
         <Image
-          src="/images/home/focus.svg"
+          src="/images/home/howitworks.jpg"
           alt="focus-2"
           width={isMobile ? width : width / 2}
           height={640}
         />
         <div className="mx-8 sm:mx-20 z-10">
           <div className="flex flex-col items-start space-y-2 sm:space-y-8">
-            <h1 className="text-base sm:text-3xl sm:leading-[42px]">
+            <h1 className="text-base sm:text-6xl sm:leading-[42px]">
               {focus.title}
             </h1>
-            <p className="text-xs sm:text-sm uppercase font-extralight">
+            <p className="text-xl sm:text-sm uppercase font-extralight">
               {focus.author}
             </p>
             <Accordion

@@ -56,31 +56,58 @@ export const socialLinks = [
 ];
 
 export const hero = {
-  bg: '/images/home/bg.png',
-  title: 'Unlock secure possibilities in a connected world',
+  bg: '/images/home/main2.jpg',
+  title: ' Elevating Aviation with Blockchain and Fractional NFTs',
   subtitle:
-    'We can help you develop blockchain solutions that offer unmatched security and privacy.',
-  blocks: [
+    'Welcome to the future of aviation – where transparency, accessibility, and efficiency come together like never before. Our groundbreaking platform is here to revolutionize aircraft leasing, fractional ownership, and air ambulance services using the power of blockchain technology and Fractional Non-Fungible Tokens (NFTs).',
+  
+    blocks: [
     {
       id: 1,
-      title: 'Data & Cyber Security',
+      title: 'Transparent Aircraft Leasing',
     },
     {
       id: 2,
-      title: 'Blockchain Development & Consulting',
+      title: 'Share in the Skies',
     },
     {
       id: 3,
-      title: 'Blockchain Training & Recruitment',
+      title: 'Saving Lives, Faster',
     },
     {
       id: 4,
-      title: 'Web & Mobile App Development',
+      title: '',
     },
   ],
 };
 
 export const idea = {
+  blocks: [
+    {
+      id: 1,
+      title: 'Transparent Aircraft Leasing',
+      description:
+        'Say goodbye to the complexities and inefficiencies of traditional aircraft leasing. With our platform, you can now lease aircraft with ease, security, and full transparency. Fractional NFTs make it possible for you to access the aircraft you need, when you need it. Discover a new world of leasing opportunities.',
+      image: '/images/home/idea/airlease.jpg',
+    },
+    {
+      id: 2,
+      title: 'Fractional Ownership',
+      description:
+        'Owning an aircraft is no longer a distant dream. Fractional ownership allows you to own a piece of the aviation industry. Each Fractional NFT represents a share of an aircraft, giving you the benefits of ownership without the full financial burden. Experience the freedom of flight like never before.',
+      image: '/images/home/idea/2.svg',
+    },
+    {
+      id: 3,
+      title: 'Air Ambulance Services',
+      description:
+        'When seconds count, our platform ensures rapid air ambulance responses. Aircraft are readily available for lease, streamlining operations and facilitating life-saving missions. Join us in making the world a safer place through efficient air ambulance services.',
+      image: '/images/home/idea/3.svg',
+    },
+  ],
+};
+
+export const idea2 = {
   title: 'From idea to launch, We help you at every stage!',
   subtitle:
     'We work closely with our clients to create cutting-edge solutions that translate into sustainable success for their businesses.',
@@ -115,6 +142,8 @@ export const idea = {
     },
   ],
 };
+
+
 
 export const services = [
   {
@@ -163,38 +192,32 @@ export const services = [
 
 export const focus = {
   title:
-    'For those who understand the profound implications of blockchain technology, there is no turning back',
-  author: '— Joseph Lubin, Co-Founder, Ethereum',
+    'How It Works',
+  author: 'A Revolution in Four Steps',
   accordion: [
     {
       id: 1,
-      title: 'Blockchain applications',
+      title: '1. Tokenization',
       description:
-        'We believe that blockchain technology is changing how our world works for the better and we want to be part of that change. We thrive to build better world by leveraging blockchain.',
+        'Aircraft are registered and tokenized on a secure blockchain, ensuring transparent ownership records.',
     },
     {
       id: 2,
-      title: 'Decentralized finance (DEFI)',
+      title: '2. Leasing Marketplace',
       description:
-        'Our team of developers specializes in developing decentralized financial platforms that are not solely focused on cryptocurrency but real world adoption.',
+        'Find, lease, and operate aircraft through our user-friendly, decentralized marketplace.',
     },
     {
       id: 3,
-      title: 'Tailor-made Token development',
+      title: '3. Identity Verification',
       description:
-        'Our custom token development service helps businesses and organizations create their own unique digital tokens that can be used for various purposes such as fundraising, loyalty rewards, and asset management.',
+        'Robust identity verification mechanisms ensure compliance with aviation regulations.',
     },
     {
       id: 4,
-      title: 'Cross-border payment solutions',
+      title: '4. Data Security',
       description:
-        'Right from user-friendly interfaces, integrating with existing payment systems, and implementing advanced security protocols to protect sensitive financial information. We streamline your business requirements into a meaningful solutions.',
-    },
-    {
-      id: 5,
-      title: 'Supply chain solutions',
-      description:
-        'We help improve transparency, efficiency, and security in your supply chain operations by leveraging advanced hybrid blockchain protocols & oracles which will help get greater accuracy and accountability of your existing supply chain business.',
+        ' We prioritize data protection, ensuring your information is safe and private.',
     },
   ],
 };

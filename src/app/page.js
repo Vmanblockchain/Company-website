@@ -6,7 +6,7 @@ import Navbar from '@/components/common/Navbar';
 import Focus from '@/components/home/Focus';
 import Headings from '@/components/home/Headings';
 import Hero from '@/components/home/Hero';
-import Idea from '@/components/home/Idea';
+import Idea from '@/components/home/idea';
 import Process from '@/components/home/Process';
 import Services from '@/components/home/Service';
 import Work from '@/components/home/Work';
