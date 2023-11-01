@@ -13,7 +13,7 @@ const Process = () => {
           <h1 className="text-[10px] sm:text-sm  text-opacity-70">
             Looking for collaboration?
           </h1>
-          <h1 className="text-xs sm:text-base">hello@primeval.pro</h1>
+          <h1 className="text-xs sm:text-base"> info@vman.aero</h1>
         </div>
         <div className="w-[2px] sm:w-52 h-11 sm:h-[2px] bg-black dark:"></div>
         <div className="flex flex-col">

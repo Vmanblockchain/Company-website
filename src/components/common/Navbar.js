@@ -20,11 +20,10 @@ export default function Navbar({ textEnter, textExit }) {
         }}
       >
         <div className="w-full h-full p-[50px] bg-white flex-col justify-start items-start gap-16 sm:gap-[131px] inline-flex">
-          <div className="w-[123.40px] h-[53.64px] relative">
-            <Image src={navbar.logo} alt="logo" width={32} height={48} />
-            <div className="left-[39.40px] top-[7.64px] absolute text-black text-[20px] font-medium">
-              Primeval <br />
-              Labs
+          <div className="w-[150.40px] h-[83.64px] relative">
+            <Image src={navbar.logo} alt="logo" width={60} height={80} />
+            <div className="left-[39.40px] top-[7.64px] absolute text-black text-[30px] font-medium">
+              Vman
             </div>
           </div>
           <ul className="flex-col justify-start items-start gap-[30px] flex">
@@ -54,8 +53,7 @@ export default function Navbar({ textEnter, textExit }) {
               to contact us to say hello.
             </div>
             <div className="w-[172px] text-gray-500 text-[19px] font-normal leading-7">
-              hello@primeval.pro
-            </div>
+               info@vman.aero            </div>
             <div className="justify-start items-start gap-[47px] inline-flex">
               <div className="w-8 h-[29.77px] relative" />
               <div className="w-8 h-[29.77px] relative" />
@@ -91,9 +89,9 @@ export default function Navbar({ textEnter, textExit }) {
         </div>
         <div className="w-full justify-between flex items-center">
           <div className="w-full flex items-end space-x-2">
-            <Image src={navbar.logo} alt="logo" width={32} height={48} />
-            <h1 className="text-xl font-medium leading-5">
-              Primeval <br /> Labs
+            <Image src={navbar.logo} alt="logo" width={60} height={80} />
+            <h1 className="text-3xl font-medium leading-5">
+              Vman
             </h1>
           </div>
           <div className="mr-20 h-8">

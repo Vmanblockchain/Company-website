@@ -18,9 +18,9 @@ const Idea = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-1 xl:grid-cols-1 gap-10">
           {blocks.map((block, index) => (
-            <div key={block.id} className={`flex flex-col sm:flex-row items-start space-y-16 sm:space-y-5 space-x-6 ${index % 2 === 0 ? 'sm:space-x-reverse' : ''}`}>
+            <div key={block.id} className={`flex flex-col sm:flex-row items-start space-y-16 sm:space-y-5 ${index % 2 === 0 ? 'sm:space-x-reverse' : ''}`}>
               <div className="w-full sm:w-1/2">
-                <h2 className="text-4xl font-bold leading-5 sm:leading-6 mb-4">{block.title}</h2>
+                <h2 className="text-4xl font-bold leading-9 sm:leading-6 mb-4">{block.title}</h2>
                 <p className="">{block.description}</p>
               </div>
               <div className="w-full sm:w-1/2 flex items-center justify-center">

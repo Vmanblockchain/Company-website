@@ -11,8 +11,7 @@ export default function Hero() {
       <div className="relative bg-white hidden lg:block w-[5%] h-full">
         <div className="w-full absolute flex flex-col items-center justify-around h-full ">
           <h1 className="text-black transform -rotate-90">
-            hello@primeval.pro
-          </h1>
+             info@vman.aero          </h1>
           <div className="flex items-center justify-center transform -rotate-90 space-x-3">
             <div className="flex items-center justify-center">
               <span className="w-20 bg-black h-[2px]"></span>

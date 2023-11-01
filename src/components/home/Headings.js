@@ -5,19 +5,19 @@ import Marquee from 'react-fast-marquee';
 
 export default function Headings() {
   const solid = [
-    'Development',
-    'Blockchain',
-    'Strategy',
-    'DevOps',
-    'Design',
-    'Creative',
+    'AMS',
+    'IEMS',
+    'Air and Mobility',
+    'Aviation training',
+    'Renting',
+    'Leasing',
   ];
 
   const { width } = useViewportSize();
 
   const isMobile = width < 768;
 
-  const outline = ['Apps', 'Fintech', 'Web-3', 'Blockchain', 'NFTs'];
+  const outline = ['Air Ambulance', 'HEMS', 'FTO', 'Medical transport', 'eVTOL'];
 
   return (
     <div className="bg-white py-10 text-black">
@@ -26,7 +26,7 @@ export default function Headings() {
           {solid.map((item, index) => (
             <div
               key={index}
-              className="text-6xl sm:text-[160px] font-bold text-black"
+              className="text-5xl sm:text-[90px] font-bold text-black"
             >
               {item}
               {'.'}
@@ -41,7 +41,7 @@ export default function Headings() {
           {outline.map((item, index) => (
             <div
               key={index}
-              className="text-6xl sm:text-[160px] font-bold text-white text-outline"
+              className="text-5xl sm:text-[90px] font-bold text-white text-outline"
             >
               {item}
               {'.'}

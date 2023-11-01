@@ -23,7 +23,7 @@ const Work3 = () => {
             </div>
           </div>
           <Image
-            src="/images/home/work3.jpg"
+            src="/images/home/work33.jpg"
             alt="work3"
             width={500}
             height={500}

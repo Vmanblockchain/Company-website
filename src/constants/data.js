@@ -1,6 +1,6 @@
 export const navbar = {
-  logo: '/images/common/logo_black.png',
-  logoName: 'Primeval Labs',
+  logo: '/images/common/vman_logo22.jpg',
+  logoName: 'Vman',
   hamburger: '/images/common/hamburger.svg',
   links: [
     {
@@ -15,12 +15,12 @@ export const socialLinks = [
   {
     id: 1,
     img: '/images/common/linkedin.svg',
-    link: 'https://www.linkedin.com/company/primeval-labs/',
+    link: 'https://www.linkedin.com/company/vman/',
   },
   {
     id: 2,
     img: '/images/common/twitter.svg',
-    link: 'https://twitter.com/primeval_labs',
+    link: 'https://twitter.com/vman',
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ export const hero = {
   bg: '/images/home/main2.jpg',
   title: ' Elevating Aviation with Blockchain and Fractional NFTs',
   subtitle:
-    'Welcome to the future of aviation – where transparency, accessibility, and efficiency come together like never before. Our groundbreaking platform is here to revolutionize aircraft leasing, fractional ownership, and air ambulance services using the power of blockchain technology and Fractional Non-Fungible Tokens (NFTs).',
+    'A new aviation platform is revolutionizing aircraft leasing, fractional ownership, and air ambulance services with blockchain technology and NFTs, making them more transparent, accessible, and efficient.',
   
     blocks: [
     {
@@ -76,7 +76,7 @@ export const idea = {
       title: 'Air Ambulance Services',
       description:
         'When seconds count, our platform ensures rapid air ambulance responses. Aircraft are readily available for lease, streamlining operations and facilitating life-saving missions. Join us in making the world a safer place through efficient air ambulance services.',
-      image: '/images/home/idea/idea3.png',
+      image: '/images/home/idea/air_ambulance.jpg',
     },
   ],
 };
@@ -165,9 +165,8 @@ export const services = [
 ];
 
 export const focus = {
-  title:
-    'How It Works',
-  author: 'A Revolution in Four Steps',
+  title: 'A Revolution in Four Steps',
+  author: 'How it works',
   accordion: [
     {
       id: 1,
@@ -196,12 +195,12 @@ export const focus = {
   ],
 };
 
-export const work = {
-  title: 'Join Our Community',
-  tagline: 'Your Journey Begins Here',
-  description:
-    'Embark on an aviation journey like never before. Join our community of aviation enthusiasts, stakeholders, and innovators. Share your knowledge and experiences, and be a part of the future of aviation.',
-  works: [
+// export const work = {
+  // title: 'Join Our Community',
+  // tagline: 'Your Journey Begins Here',
+  // description:
+  //   'Embark on an aviation journey like never before. Join our community of aviation enthusiasts, stakeholders, and innovators. Share your knowledge and experiences, and be a part of the future of aviation.',
+  // works: [
     // 'Smart Contracts',
     // 'Carbon Credits',
     // 'Asset Tokenization',
@@ -214,8 +213,8 @@ export const work = {
     // 'Legal & Regulatory',
     // 'Solar SaaS',
     // 'Mortgage & Lending',
-  ],
-};
+  // ],
+
 
 export const work2 = {
   title: 'Get Started',
@@ -305,7 +304,7 @@ export const about = {
 export const team = {
   title: 'Core Team',
   description:
-    'Primeval is built by an all-remote team and a community of contributors around the world. We look to engage with our clients beyond the conventional design and development relationship, becoming a partner to the people and companies we work with.',
+    'Vman is built by an all-remote team and a community of contributors around the world. We look to engage with our clients beyond the conventional design and development relationship, becoming a partner to the people and companies we work with.',
   members: [
     {
       id: 1,

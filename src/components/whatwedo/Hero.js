@@ -20,7 +20,7 @@ export default function Hero() {
         className=""
       />
       <div className="absolute top-1/4 -left-4 hidden sm:block">
-        <h1 className="-rotate-90 text-white">hello@primeval.pro</h1>
+        <h1 className="-rotate-90 text-white"> info@vman.aero</h1>
       </div>
       <motion.div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <h1 className="text-7xl sm:text-9xl font-bold text-center text-white">

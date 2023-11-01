@@ -34,9 +34,9 @@ const Footer = () => {
         <div className="my-24 grid grid-cols-3 w-full">
           <div className="flex justify-between sm:justify-start items-start sm:space-x-10">
             <Image
-              src="/images/common/logo.png"
-              width={44}
-              height={38}
+              src="/images/common/vman_logo22.jpg"
+              width={120}
+              height={100}
               alt="footer logo"
               className="hidden sm:block"
             />
@@ -56,13 +56,12 @@ const Footer = () => {
             <li className="text-white text-xs text-opacity-50 uppercase">
               Need help?
             </li>
-            <li className="text-white text-xs sm:text-lg">+91 9908044386</li>
+            <li className="text-white text-xs sm:text-lg">+91(22)2850 0337</li>
             <li className="text-white text-xs text-opacity-50 uppercase">
               Let&apos;s connect
             </li>
             <li className="text-white text-xs sm:text-lg">
-              hello@primeval.pro
-            </li>
+               info@vman.aero            </li>
           </ul>
           <div className="flex flex-col item-start space-y-8">
             <h1 className="text-xs sm:text-sm uppercase text-neutral-500">
@@ -87,7 +86,7 @@ const Footer = () => {
         <Divider my="xs" className="bg-white opacity-20 w-full" />
         <div className="flex w-full justify-between items-center py-8">
           <p className="text-white text-opacity-50 text-xs">
-            Primeval Tech Inc. © 2023 All rights Reserved.
+            Vman Inc. © 2023 All rights Reserved.
           </p>
           <p className="text-white text-opacity-50 text-xs">English / USD</p>
         </div>
