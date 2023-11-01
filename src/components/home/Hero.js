@@ -48,7 +48,7 @@ export default function Hero() {
           <h1 className="text-white 2xl:text-8xl xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold">
             {hero.title}
           </h1>
-          <h1 className="text-white text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
+          <h1 className="text-white text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl">
             {hero.subtitle}
           </h1>
         </motion.div>

@@ -10,11 +10,13 @@ import Idea from '@/components/home/idea';
 import Process from '@/components/home/Process';
 import Services from '@/components/home/Service';
 import Work from '@/components/home/Work';
+import Work2 from '@/components/home/Work2';
+import Work3 from '@/components/home/Work3';
 import { useMouse, useMove } from '@mantine/hooks';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
-const components = [Idea, Focus, Services, Headings, Work, Process, Footer];
+const components = [Idea, Focus, Services, Headings, Work, Work2, Work3, Footer];
 
 export default function Home() {
   const { ref: mouseRef, x: left, y: top } = useMouse();

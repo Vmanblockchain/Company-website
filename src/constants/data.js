@@ -69,14 +69,14 @@ export const idea = {
       title: 'Fractional Ownership',
       description:
         'Owning an aircraft is no longer a distant dream. Fractional ownership allows you to own a piece of the aviation industry. Each Fractional NFT represents a share of an aircraft, giving you the benefits of ownership without the full financial burden. Experience the freedom of flight like never before.',
-      image: '/images/home/idea/2.svg',
+      image: '/images/home/idea/idea2.png',
     },
     {
       id: 3,
       title: 'Air Ambulance Services',
       description:
         'When seconds count, our platform ensures rapid air ambulance responses. Aircraft are readily available for lease, streamlining operations and facilitating life-saving missions. Join us in making the world a safer place through efficient air ambulance services.',
-      image: '/images/home/idea/3.svg',
+      image: '/images/home/idea/idea3.png',
     },
   ],
 };
@@ -120,48 +120,48 @@ export const idea2 = {
 
 
 export const services = [
-  {
-    id: 1,
-    title: 'Planning',
-    description:
-      'The project team defines the project scope, requirements, and goals. This involves identifying the target audience, defining the features of the app, and deciding on the technology stack.',
-    img: '/images/home/services/1.svg',
-  },
-  {
-    id: 2,
-    title: 'Design',
-    description:
-      'The design project team creates a detailed design of the blockchain app. This includes the user interface, user experience, and technical architecture.',
-    img: '/images/home/services/2.svg',
-  },
-  {
-    id: 3,
-    title: 'Development',
-    description:
-      'The developer team starts developing the blockchain app. This involves writing the code, building the smart contracts, and integrating various components of the app.',
-    img: '/images/home/services/3.svg',
-  },
-  {
-    id: 4,
-    title: 'Testing',
-    description:
-      'The team tests the blockchain app to ensure that it meets the requirements and works as intended. This involves functional testing, performance testing, security testing, and usability testing.',
-    img: '/images/home/services/4.svg',
-  },
-  {
-    id: 5,
-    title: 'Deployment',
-    description:
-      'The blockchain app is deployed to a production environment. This involves configuring the app for the target network, setting up infrastructure, and deploying the smart contracts.',
-    img: '/images/home/services/5.svg',
-  },
-  {
-    id: 6,
-    title: 'Maintenance',
-    description:
-      'The project team maintains and supports the blockchain app. This involves fixing bugs, adding new features, and upgrading the app as needed.',
-    img: '/images/home/services/6.svg',
-  },
+  // {
+  //   id: 1,
+  //   title: 'Planning',
+  //   description:
+  //     'The project team defines the project scope, requirements, and goals. This involves identifying the target audience, defining the features of the app, and deciding on the technology stack.',
+  //   img: '/images/home/services/1.svg',
+  // },
+  // {
+  //   id: 2,
+  //   title: 'Design',
+  //   description:
+  //     'The design project team creates a detailed design of the blockchain app. This includes the user interface, user experience, and technical architecture.',
+  //   img: '/images/home/services/2.svg',
+  // },
+  // {
+  //   id: 3,
+  //   title: 'Development',
+  //   description:
+  //     'The developer team starts developing the blockchain app. This involves writing the code, building the smart contracts, and integrating various components of the app.',
+  //   img: '/images/home/services/3.svg',
+  // },
+  // {
+  //   id: 4,
+  //   title: 'Testing',
+  //   description:
+  //     'The team tests the blockchain app to ensure that it meets the requirements and works as intended. This involves functional testing, performance testing, security testing, and usability testing.',
+  //   img: '/images/home/services/4.svg',
+  // },
+  // {
+  //   id: 5,
+  //   title: 'Deployment',
+  //   description:
+  //     'The blockchain app is deployed to a production environment. This involves configuring the app for the target network, setting up infrastructure, and deploying the smart contracts.',
+  //   img: '/images/home/services/5.svg',
+  // },
+  // {
+  //   id: 6,
+  //   title: 'Maintenance',
+  //   description:
+  //     'The project team maintains and supports the blockchain app. This involves fixing bugs, adding new features, and upgrading the app as needed.',
+  //   img: '/images/home/services/6.svg',
+  // },
 ];
 
 export const focus = {
@@ -197,23 +197,65 @@ export const focus = {
 };
 
 export const work = {
-  title: 'Our Core Focus',
-  tagline: 'What we do',
+  title: 'Join Our Community',
+  tagline: 'Your Journey Begins Here',
   description:
-    'Our broad experience from working on diverse projects across industries equips us to tackle new challenges with confidence.',
+    'Embark on an aviation journey like never before. Join our community of aviation enthusiasts, stakeholders, and innovators. Share your knowledge and experiences, and be a part of the future of aviation.',
   works: [
-    'Smart Contracts',
-    'Carbon Credits',
-    'Asset Tokenization',
-    'Healthcare Systems',
-    'Supply Chain',
-    'Data Analytics',
-    'Defi & Banking',
-    'Energy Management',
-    'Zk Proof ID Systems',
-    'Legal & Regulatory',
-    'Solar SaaS',
-    'Mortgage & Lending',
+    // 'Smart Contracts',
+    // 'Carbon Credits',
+    // 'Asset Tokenization',
+    // 'Healthcare Systems',
+    // 'Supply Chain',
+    // 'Data Analytics',
+    // 'Defi & Banking',
+    // 'Energy Management',
+    // 'Zk Proof ID Systems',
+    // 'Legal & Regulatory',
+    // 'Solar SaaS',
+    // 'Mortgage & Lending',
+  ],
+};
+
+export const work2 = {
+  title: 'Get Started',
+  tagline: 'Take Flight with Us',
+  description:
+    'Ready to take flight with us? Sign up today and be part of the aviation revolution. Discover a world of opportunities, streamline your air ambulance services, and experience the benefits of fractional ownership.',
+  works: [
+    // 'Smart Contracts',
+    // 'Carbon Credits',
+    // 'Asset Tokenization',
+    // 'Healthcare Systems',
+    // 'Supply Chain',
+    // 'Data Analytics',
+    // 'Defi & Banking',
+    // 'Energy Management',
+    // 'Zk Proof ID Systems',
+    // 'Legal & Regulatory',
+    // 'Solar SaaS',
+    // 'Mortgage & Lending',
+  ],
+};
+
+export const work3 = {
+  title: 'Let\'s Soar Together',
+  tagline: '',
+  description:
+    'Embark on an aviation journey like never before. Join our community of aviation enthusiasts, stakeholders, and innovators. Share your knowledge and experiences, and be a part of the future of aviation.',
+  works: [
+    // 'Smart Contracts',
+    // 'Carbon Credits',
+    // 'Asset Tokenization',
+    // 'Healthcare Systems',
+    // 'Supply Chain',
+    // 'Data Analytics',
+    // 'Defi & Banking',
+    // 'Energy Management',
+    // 'Zk Proof ID Systems',
+    // 'Legal & Regulatory',
+    // 'Solar SaaS',
+    // 'Mortgage & Lending',
   ],
 };
 
